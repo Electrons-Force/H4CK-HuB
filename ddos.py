@@ -22,10 +22,10 @@ def saycheese():
 		print("\033[1;36;40m[+] figlet Is Installed")
 		os.system("pkg install unstable-repo")
 		print("\033[1;36;40m[+] unstable-repo Is Installed")
-		os.system("git clone https://github.com/H3MrX/DDos-Attack.git")
+		os.system("git clone https://github.com/grafov/hulk.git ")
 		print("\033[1;36;40m[+] DDos-Attack is successfully installed!")
 	elif a == "n":
-		os.system("git clone https://github.com/H3MrX/DDos-Attack.git")
+		os.system("git clone https://github.com/grafov/hulk.git")
 		print("\033[1;36;40m[+] DDos-Attack is successfully installed!")
 		
 	b=str(input("\033[1;31;40mDo you want to exit? (y/n)"))
